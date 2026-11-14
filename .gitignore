@@ -1,0 +1,37 @@
+# Environment
+.env
+.env.*
+!/src/.env.example
+
+# Laravel environment
+/src/.env
+/src/.env.*
+
+# Dependencies
+/src/vendor/
+/src/node_modules/
+
+# Laravel cache and logs
+/src/storage/*.key
+/src/storage/logs/*
+/src/storage/framework/cache/*
+/src/storage/framework/sessions/*
+/src/storage/framework/views/*
+/src/bootstrap/cache/*
+
+# Build assets
+/src/public/build/
+/src/public/css/filament/
+/src/public/fonts/filament/
+/src/public/js/filament/
+/src/public/hot
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+.phpunit.result.cache
